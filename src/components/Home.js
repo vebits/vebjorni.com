@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
 class Home extends Component {
+
   render() {
     return(
       <div className="container">
         <div className="header">
-          <NavLink exact to="/">vebjorni.com</NavLink>
-          <div>(<a href="https://github.com/vebjorni" target="_blank">src</a>)</div>
+          <a href="https://vebjorni.com">vebjorni.com</a>
+          <div>(<a href="https://github.com/vebjorni/vebjorni.com" target="_blank">src</a>)</div>
         </div>
         <div className="center-items">
           <div className="name">Vebjørn Isaksen</div>
